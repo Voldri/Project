@@ -1,11 +1,11 @@
-# PROGRAM _P22;
+# PROGRAM _P11;
 VARIABLE INTEGER16_t  _A00, _B00, _C00, _X00, _Y00;
 START
     SCAN(_A00);
     SCAN(_B00);
 
     _C00 -> _A00;
-    WHILE (_C00 !> _B00) {
+    WHILE (_C00 !< _B00) {
         PRINT(_C00 * _C00);
         _C00 + 1 -> _C00;
     }
@@ -13,9 +13,9 @@ START
     _Y00 -> 0;
 
     _C00 -> 1;
-    WHILE (_C00 !> _A00) {
+    WHILE (_C00 !< _A00) {
         _X00 -> 1;
-        WHILE (_X00 !> _B00) {
+        WHILE (_X00 !< _B00) {
             _Y00 + 1 -> _Y00;
             _X00 + 1 -> _X00;
         }
