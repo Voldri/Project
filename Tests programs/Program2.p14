@@ -1,37 +1,37 @@
 # PROGRAM _P11;
-VARIABLE INTEGER16_t  _A00, _B00, _X00, _Y00;
+VARIABLE INTEGER16_t  _A00, _B00, _C00, _Y00;
 START
     SCAN(_A00);
     SCAN(_B00);
-    SCAN(_X00);
+    SCAN(_C00);
 
-    IF _A00 !< _B00 AND _A00 !< _X00 {
+    IF _A00 !< _B00 AND _A00 !< _C00 {
         _A00 -> _Y00;
     }
-    ELSE IF _B00 !< _A00 AND _B00 !< _X00 {
+    ELSE IF _B00 !< _A00 AND _B00 !< _C00 {
         _B00 -> _Y00;
     }
     ELSE {
-        _X00 -> _Y00;
+        _C00 -> _Y00;
     }
 
     PRINT(_Y00);
 
-    IF (_A00 == _B00) AND (_A00 == _X00) AND (_B00 == _X00) {
+    IF (_A00 == _B00) AND (_A00 == _C00) AND (_B00 == _C00) {
         PRINT("1");
     }
     ELSE {
         PRINT("0");
     }
 
-    IF NOT (_A00 !< 0) OR NOT (_B00 !< 0) OR NOT (_X00 !< 0) {
+    IF NOT (_A00 !< 0) OR NOT (_B00 !< 0) OR NOT (_C00 !< 0) {
         PRINT("-1");
     }
     ELSE {
         PRINT("0");
     }
 
-    IF _A00 !< (_B00 + _X00) {
+    IF _A00 !< (_B00 + _C00) {
         PRINT("10");
     }
     ELSE {
