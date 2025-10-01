@@ -6,13 +6,13 @@ START
     SCAN(_X00);
 
     IF _A00 !< _B00 AND _A00 !< _X00 {
-        _Y00 -> _A00;
+        _A00 -> _Y00;
     }
     ELSE IF _B00 !< _A00 AND _B00 !< _X00 {
-        _Y00 -> _B00;
+        _B00 -> _Y00;
     }
     ELSE {
-        _Y00 -> _X00;
+        _X00 -> _Y00;
     }
 
     PRINT(_Y00);
