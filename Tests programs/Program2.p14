@@ -5,10 +5,10 @@ START
     SCAN(_B00);
     SCAN(_X00);
 
-    IF _A00 !> _B00 AND _A00 !> _X00 {
+    IF _A00 !< _B00 AND _A00 !< _X00 {
         _Y00 -> _A00;
     }
-    ELSE IF _B00 !> _A00 AND _B00 >= _X00 {
+    ELSE IF _B00 !< _A00 AND _B00 !< _X00 {
         _Y00 -> _B00;
     }
     ELSE {
@@ -24,14 +24,14 @@ START
         PRINT("0");
     }
 
-    IF NOT (_A00 !> 0) OR NOT (_B00 !> 0) OR NOT (_X00 !> 0) {
+    IF NOT (_A00 !< 0) OR NOT (_B00 !< 0) OR NOT (_X00 !< 0) {
         PRINT("-1");
     }
     ELSE {
         PRINT("0");
     }
 
-    IF _A00 !> (_B00 + _X00) {
+    IF _A00 !< (_B00 + _X00) {
         PRINT("10");
     }
     ELSE {
