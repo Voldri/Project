@@ -18,23 +18,23 @@ START
     PRINT(_Y00);
 
     IF (_A00 == _B00) AND (_A00 == _C00) AND (_B00 == _C00) {
-        PRINT("1");
+        PRINT(1);
     }
     ELSE {
-        PRINT("0");
+        PRINT(0);
     }
 
     IF NOT (_A00 !< 0) OR NOT (_B00 !< 0) OR NOT (_C00 !< 0) {
-        PRINT("-1");
+        PRINT(-1);
     }
     ELSE {
-        PRINT("0");
+        PRINT(0);
     }
 
     IF _A00 !< (_B00 + _C00) {
-        PRINT("10");
+        PRINT(10);
     }
     ELSE {
-        PRINT("0");
+        PRINT(0);
     }
 STOP
