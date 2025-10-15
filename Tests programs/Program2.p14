@@ -31,7 +31,7 @@ START
         PRINT(0);
     }
 
-    IF _A00 !< (_B00 + _C00) {
+    IF _A00 !< (_B00 ADD _C00) {
         PRINT(10);
     }
     ELSE {
