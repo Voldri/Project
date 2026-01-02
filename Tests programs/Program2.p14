@@ -7,34 +7,28 @@ START
 
     IF _A00 !< _B00 AND _A00 !< _C00 {
         _A00 -> _Y00;
-    }
-    ELSE IF _B00 !< _A00 AND _B00 !< _C00 {
+    } ELSE IF _B00 !< _A00 AND _B00 !< _C00 {
         _B00 -> _Y00;
-    }
-    ELSE {
+    } ELSE {
         _C00 -> _Y00;
     }
-
     PRINT(_Y00);
 
     IF (_A00 == _B00) AND (_A00 == _C00) AND (_B00 == _C00) {
         PRINT(1);
-    }
-    ELSE {
+    } ELSE {
         PRINT(0);
     }
 
     IF NOT (_A00 !< 0) OR NOT (_B00 !< 0) OR NOT (_C00 !< 0) {
-        PRINT(-1);
-    }
-    ELSE {
+        PRINT(SUB1);
+    } ELSE {
         PRINT(0);
     }
 
     IF _A00 !< (_B00 ADD _C00) {
         PRINT(10);
-    }
-    ELSE {
+    } ELSE {
         PRINT(0);
     }
 STOP
