@@ -1,0 +1,353 @@
+    |--program_rule
+    |    |--"#"
+    |    |--"PROGRAM"
+    |    |--program_name
+    |    |    |--ident
+    |    |    |    |--"_P11"
+    |    |--";"
+    |    |--"VARIABLE"
+    |    |--declaration__optional
+    |    |    |--declaration
+    |    |    |    |--value_type
+    |    |    |    |    |--"INTEGER16_t"
+    |    |    |    |--declaration_element
+    |    |    |    |    |--ident
+    |    |    |    |    |    |--"_A00"
+    |    |    |    |--other_declaration_ident__iteration
+    |    |    |    |    |--other_declaration_ident
+    |    |    |    |    |    |--","
+    |    |    |    |    |    |--declaration_element
+    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |--"_B00"
+    |    |    |    |    |--other_declaration_ident__iteration
+    |    |    |    |    |    |--other_declaration_ident
+    |    |    |    |    |    |    |--","
+    |    |    |    |    |    |    |--declaration_element
+    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |--other_declaration_ident__iteration
+    |    |    |    |    |    |    |--other_declaration_ident
+    |    |    |    |    |    |    |    |--","
+    |    |    |    |    |    |    |    |--declaration_element
+    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |--"_X00"
+    |    |    |    |    |    |    |--other_declaration_ident__iteration
+    |    |    |    |    |    |    |    |--other_declaration_ident
+    |    |    |    |    |    |    |    |    |--","
+    |    |    |    |    |    |    |    |    |--declaration_element
+    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |--"_Y00"
+    |    |--";"
+    |    |--"START"
+    |    |--statement__iteration
+    |    |    |--statement
+    |    |    |    |--input_rule
+    |    |    |    |    |--"SCAN"
+    |    |    |    |    |--argument_for_input
+    |    |    |    |    |    |--"("
+    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |--"_A00"
+    |    |    |    |    |    |--")"
+    |    |    |--statement__iteration
+    |    |    |    |--statement
+    |    |    |    |    |--";"
+    |    |    |    |--statement__iteration
+    |    |    |    |    |--statement
+    |    |    |    |    |    |--input_rule
+    |    |    |    |    |    |    |--"SCAN"
+    |    |    |    |    |    |    |--argument_for_input
+    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |--"_B00"
+    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |--"_A00"
+    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |--while_cycle
+    |    |    |    |    |    |    |    |    |    |    |--"WHILE"
+    |    |    |    |    |    |    |    |    |    |    |--while_cycle_head_expression
+    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--group_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"!>"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_B00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |--block_statements_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |--"{"
+    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--output_rule
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"PRINT"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--group_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"MUL"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"ADD"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--unsigned_value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |--"}"
+    |    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--unsigned_value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"0"
+    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_Y00"
+    |    |    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--unsigned_value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--while_cycle
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"WHILE"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--while_cycle_head_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--group_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"!>"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_A00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--block_statements_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"{"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--unsigned_value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_X00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--while_cycle
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"WHILE"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--while_cycle_head_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--group_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_X00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"!>"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_B00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--block_statements_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"{"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_Y00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"ADD"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--unsigned_value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_Y00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_X00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"ADD"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--unsigned_value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_X00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"}"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression_or_cond_block__with_optional_assign
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"ADD"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--unsigned_value
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right__optional
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--assign_to_right
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"->"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_C00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_and_if_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"}"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--output_rule
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"PRINT"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--group_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"_Y00"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement__iteration
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |--"STOP"
