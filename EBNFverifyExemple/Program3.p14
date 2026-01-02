@@ -1,0 +1,25 @@
+# PROGRAM _P11;
+VARIABLE INTEGER16_t  _A00, _B00, _C00, _X00, _Y00;
+START
+    SCAN(_A00);
+    SCAN(_B00);
+
+    _A00 -> _C00;
+    WHILE (_C00 !> _B00) {
+        PRINT(_C00 MUL _C00);
+        _C00 ADD 1 -> _C00;
+    }
+
+    0 -> _Y00;
+    1 -> _C00;
+    WHILE (_C00 !> _A00) {
+        1 -> _X00;
+        WHILE (_X00 !> _B00) {
+            _Y00 ADD 1 -> _Y00;
+            _X00 ADD 1 -> _X00;
+        }
+        _C00 ADD 1 -> _C00;
+    }
+
+    PRINT(_Y00);
+STOP
